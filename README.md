@@ -1,4 +1,5 @@
 Loteria
+
 Este projeto tem como objetivo implementar uma aplicação web que simule Sorteio de Loteria.
 
 Endereço de Deploy - GitHub Pages: (https://github.com/MarciaStank/loteria)
@@ -6,38 +7,39 @@ Endereço de Deploy - GitHub Pages: (https://github.com/MarciaStank/loteria)
 Endereço para o video explicativo no Youtube: https://youtu.be/9RoIjMQ-Tgo
 
 Checklist:
-✔️Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
 
-✔️Usar componentes de algum framework CSS (Bootstrap, Materialize ou outro)
+[x]Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
 
-✔️Apresentar as telas com layout responsivo usando ou não algum framework CSS.
+[x] Usar componentes de algum framework CSS (Bootstrap, Materialize ou outro)
 
-✔️Construir páginas web com o conceito de componentes.
+[x] Apresentar as telas com layout responsivo usando ou não algum framework CSS.
 
-✔️Criar o layout da aplicação com componentes, ou seja, o cabeçalho e rodapé precisam ser componentes.
+[x] Construir páginas web com o conceito de componentes.
 
-✔️Usar pelo menos dois tipos de data-binding (Interpolation, Property Binding, Event Binding e Two Way Data Binding).
+[x] Criar o layout da aplicação com componentes, ou seja, o cabeçalho e rodapé precisam ser componentes.
 
-✔️Passar dados via hierarquia de componentes, ou seja, usando @Input ou @Output.
+[x] Usar pelo menos dois tipos de data-binding (Interpolation, Property Binding, Event Binding e Two Way Data Binding).
 
-✔️Mapear componentes à rotas no módulo de rotas.
+[ ]Passar dados via hierarquia de componentes, ou seja, usando @Input ou @Output.
 
-✔️Criar navegação entre páginas por meio de rotas.
+[x]Mapear componentes à rotas no módulo de rotas.
 
-✔️Passar dados entre componentes que representam diferentes telas via parâmetros de rotas.
+[x]Criar navegação entre páginas por meio de rotas.
 
-✔️Validar campos do formulário com REGEX e apresentar os erros.
+[x]Passar dados entre componentes que representam diferentes telas via parâmetros de rotas.
 
-✔️Desabilitar o botão de submit enquanto o formulário está inválido.
+[ ]Validar campos do formulário com REGEX e apresentar os erros.
 
-✔️Fazer requisições a API com tratamento da resposta com Promises ou Observables.
+[ ]Desabilitar o botão de submit enquanto o formulário está inválido.
 
-✔️Cadastrar uma entidade no JSON Server.
+[x]Fazer requisições a API com tratamento da resposta com Promises ou Observables.
 
-✔️Apresentar uma lista de dados com a diretiva estrutural ngFor.
+[ ]Cadastrar uma entidade no JSON Server.
 
-✔️Usar a diretiva ngIf
+[x]Apresentar uma lista de dados com a diretiva estrutural ngFor.
 
-✔️Formatar a apresentação de dados com Pipes.
+[ ]Usar a diretiva ngIf
 
-✔️Build e deploy da aplicação.
+[ ]Formatar a apresentação de dados com Pipes.
+
+[x]Build e deploy da aplicação.
