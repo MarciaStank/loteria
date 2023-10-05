@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilo para os botões */
+.button {
+    background-color: #d898c9; /* Cor dos botões */
+    color: rgb(249, 245, 245); /* Cor do texto nos botões */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50%; /* Tornar os botões circulares */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Adicionar sombra sutil */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave na cor de fundo */
+  }
+  
+  .button:hover {
+    background-color: #db4266; /* Cor dos botões ao passar o mouse  */
+  }
+  
+  /* Estilo para os números sorteados */
+  .result-button {
+    
+    background-color: #8ca8e3; /* Cor dos números sorteados (verde pastel) */
+    color: rgb(240, 231, 231); /* Cor do texto nos números sorteados */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50%; /* Tornar os números circulares */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Adicionar sombra sutil */
+    margin: 5px;
+  }
+  

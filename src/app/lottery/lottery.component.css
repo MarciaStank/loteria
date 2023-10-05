@@ -1,0 +1,49 @@
+/* Estilo para o botão "Sortear Números" */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2cm;
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #d6a7d5;
+    color: rgb(234, 224, 224);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 16px;
+    width: auto;
+    height: 60px;
+    display: flex; /* Adicionado para alinhar o texto verticalmente */
+    align-items: center; /* Alinhar o texto verticalmente no centro */
+    justify-content: center; /* Alinhar o texto horizontalmente no centro */
+  }
+  
+  .button:hover {
+    background-color: #ae0f71;
+  }
+  
+  
+  /* Estilos para os botões de números */
+  .number-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .number-button.selected {
+    background-color: #e74c3c;
+  }
+  

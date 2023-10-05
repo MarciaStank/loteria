@@ -1,24 +1,27 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; // Importe FormsModule e ReactiveFormsModule
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SorteioComponent } from './sorteio/sorteio.component';
-import { ResultadosComponent } from './resultados/resultados.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { LotteryComponent } from './lottery/lottery.component';
+import { ResultComponent } from './result/result.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SorteioComponent,
-    ResultadosComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    LotteryComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule, // Adicione FormsModule aqui
+    ReactiveFormsModule, // Adicione ReactiveFormsModule aqui
   ],
   providers: [],
   bootstrap: [AppComponent]

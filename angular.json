@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "atividade7": {
+    "lottery-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/atividade7",
+            "outputPath": "dist/lottery-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "atividade7:build:production"
+              "browserTarget": "lottery-app:build:production"
             },
             "development": {
-              "browserTarget": "atividade7:build:development"
+              "browserTarget": "lottery-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "atividade7:build"
+            "browserTarget": "lottery-app:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "3bf02c55-85f7-441d-a315-81a75ad0702a"
+    "analytics": "fd5adf1b-a540-4035-a76f-dd94a6bf824e"
   }
 }
