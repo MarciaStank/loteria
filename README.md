@@ -6,7 +6,7 @@ Endereço do projeto - https://github.com/MarciaStank/loteria
 
 Endereço de Deploy - GitHub Pages: https://marciastank.github.io/loteria/
 
-Endereço para o video explicativo no Youtube: https://youtu.be/9RoIjMQ-Tgo
+Endereço para o video explicativo no Youtube: https://www.youtube.com/watch?v=Z4zTtkNvUSg
 
 Checklist:
 [x]Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
