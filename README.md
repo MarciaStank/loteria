@@ -9,6 +9,7 @@ Endereço de Deploy - GitHub Pages: https://marciastank.github.io/loteria/
 Endereço para o video explicativo no Youtube: https://www.youtube.com/watch?v=Z4zTtkNvUSg
 
 Checklist:
+
 [x]Criar o repositório no GitHub com a estrutura do Gitflow, ou seja, branches main e develop.
 
 [x]Usar componentes de algum framework CSS (Bootstrap, Materialize ou outro)
